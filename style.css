@@ -1,0 +1,201 @@
+
+/*======= global ======= */
+
+/* @font-face{
+    src: url(file/fontredhat.ttf);
+    font-family: youcannameitwhateveryouwant;
+} */
+
+
+/* @font-face{
+    src: url(file/fontroboto.ttf);
+    font-family: youcannameitwhateveryouwant;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    font-family:youcannameitwhateveryouwant,serif;
+
+}
+body{
+    overflow: hidden;
+}
+a{
+    text-emphasis: none;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    display: block;
+}
+h1{
+    color: #00838f;
+}
+h2{
+    color: #00838f;
+    font-size: medium;
+    padding: 10px;
+}
+h3{
+    
+}
+li{
+    color: darkslategrey;
+    box-sizing: border-box;
+    padding: 22px;
+    height: 66px;
+
+}
+
+.favbutton{
+    position: relative;
+    float: right;
+    padding: 15px;
+    color: white;
+    /* border: 1.5px solid #00838f; */
+}
+
+.favbutton:hover{
+    color: #00838f;
+}
+
+/* ======= App bar ======= */
+.logo{
+    margin-top: 3px;
+    inline-size: 60px;
+    float: left;
+}
+main{
+    display: flex ;
+}
+.linee{
+    border-left: 2px solid #c7c7c7;
+    width: 0vw;
+    height:100vh;
+}
+
+#sec1{
+    width: 30vw;
+    height: 100vh;
+}
+#sec2{
+    width: 70vw;
+    height: 100vh;
+}
+.headbar{
+    display:flex;
+    position: relative;
+    background-color: #e0e0e0;
+    height: auto;
+    font-size:20px;
+    padding: 10px;
+    line-height:normal;
+    
+}
+.form{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    padding: 1vh;
+    justify-content:center;
+}
+
+/* ======= Channels list ======= */
+.channellist{
+    display: block;
+    bottom: auto;
+    
+}
+.overflow{
+    height:calc(100vh - 95px);
+    overflow-x: hidden;
+
+}
+.overflow::-webkit-scrollbar {
+    display: none;
+}
+
+.selected{
+    background-color: #e0e0e0;
+    border-right: 3px solid #00838f;
+}
+.channellist li:hover{
+    background-color: #e4e4e4;
+    color: indigo;
+}
+span{
+    font-size: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 10vw;
+}
+/* ======= Messages ======= */
+#chat-area{
+    display: block;
+    margin: 5px 5px 0 5px;
+    padding: 5px ;
+}
+.ownermessage{
+    text-align: right;
+    position: relative;
+    float: right;
+}
+
+.ownermessage p{
+    text-align: left;
+    width: 700px;
+    color: #ffffff;
+    background-color: #00838f;
+    border-radius: 15px;
+    padding: 1vw;
+}
+.recivedmessage{
+    text-align: left;
+    position:relative;
+    float: left;
+}
+.recivedmessage p{
+    width: 700px;
+    color: black;
+    background-color: #c7c7c7;
+    border-radius: 15px;
+    padding: 1vw;
+}
+
+.messageinput{
+    font-size: larger;
+    border-radius: 30px;
+    width: 600px;
+    height: 35px;
+    border-style: none;
+    border: 0.5px dashed black;
+}
+.sendbutton{
+    font-size: larger;
+    border-radius: 30px;
+    width:85px;
+    background-color: #00838f;
+    text-transform: uppercase;
+    color: white;
+    height: 35px;
+    border-style: none;
+}
+
+.form a{
+    width: 28px;
+    height: 28px;
+    line-height: 1.7;
+    text-align: center;
+    padding: 2px 2px 2px 2px;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color:#00838f;
+    
+}
+ 
+.heart {
+    font-size: 25px;
+      color:red;
+  }

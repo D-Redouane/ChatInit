@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon" />
+        <title>ChatWebsite</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+        <!-- <svg focusable="false" width="24" height="24" viewBox="0 0 24 24" class="Pfag NMm5M"><path d="M15 8c0-1.42-.5-2.73-1.33-3.76.42-.14.86-.24 1.33-.24 2.21 0 4 1.79 4 4s-1.79 4-4 4c-.43 0-.84-.09-1.23-.21-.03-.01-.06-.02-.1-.03A5.98 5.98 0 0 0 15 8zm1.66 5.13C18.03 14.06 19 15.32 19 17v3h4v-3c0-2.18-3.58-3.47-6.34-3.87zM9 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2m0 9c-2.7 0-5.8 1.29-6 2.01V18h12v-1c-.2-.71-3.3-2-6-2M9 4c2.21 0 4 1.79 4 4s-1.79 4-4 4-4-1.79-4-4 1.79-4 4-4zm0 9c2.67 0 8 1.34 8 4v3H1v-3c0-2.66 5.33-4 8-4z"></path></svg>   -->
+        
+    </head>
+
+
+    <body>
+        <main class="main">
+
+            <div id="sec1">
+                <div class="headbar">
+                    <img src="images/logo.png" class="logo">
+                    <h1>Chat Website</h1>
+                </div>
+    
+                <div class="channellist overflow">
+                    <ul>
+                        <h2>Favorites</h2>
+                        <a><li onclick="onSlelec(this.id ,'Channel 01')" id="chan01" class="selected">Channel 1 <span>11:30</span></li></a>
+                        <a></a><li onclick="onSlelec(this.id ,'Channel 02')" id="chan02">Channel 2 <span>11:30</span></li>
+                        
+                    </ul>
+    
+                    <ul>
+                        <h2>Regular</h2>
+                        <a><li id="chan03" onclick="onSlelec(this.id ,'Channel 03')">Channel 3 <span>11:30</span></li></a>
+                        <a><li id="chan04" onclick="onSlelec(this.id ,'Channel 04')">Channel 4 <span>11:30</span></li></a>
+                        <a><li id="chan05" onclick="onSlelec(this.id ,'Channel 05')">Channel 5 <span>11:30</span></li></a>
+                        <a><li id="chan06" onclick="onSlelec(this.id ,'Channel 06')">Channel 6 <span>11:30</span></li></a>
+                        <a><li id="chan07" onclick="onSlelec(this.id ,'Channel 07')">Channel 7 <span>11:30</span></li></a>
+                        <a><li id="chan08" onclick="onSlelec(this.id ,'Channel 08')">Channel 8 <span>11:30</span></li></a>
+                        <a><li id="chan09" onclick="onSlelec(this.id ,'Channel 09')">Channel 9 <span>11:30</span></li></a>
+                        <a><li id="chan10" onclick="onSlelec(this.id ,'Channel 10')">Channel 10 <span>11:30</span></li></a>
+                        <a><li id="chan11" onclick="onSlelec(this.id ,'Channel 11')">Channel 11 <span>11:30</span></li></a>
+                        <a><li id="chan12" onclick="onSlelec(this.id ,'Channel 12')">Channel 12 <span>11:30</span></li></a>
+                    </ul>
+                    
+                </div>
+                
+            </div>
+
+            <div class="linee"></div>
+    
+            <div id="sec2">
+
+                <div class="headbar">
+                    <h1 id="channelName">Channel 01</h1>
+                    <a href="" class="fas fa-heart favbutton"></a>
+                </div>
+                
+                <div class="overflow">
+
+                    <div id="chat-area">
+
+                        <div class="ownermessage" id="firstmsg">
+                            <h3>Redouane</h3>
+                            <p id="myMsg">Totally true ✅
+                                This is one of the most beautiful philosophies ... 
+                                Cause It doesn't matter how slowly you are as long as you still continue .... 
+                                As long as you do not stop doing it ❤✅
+                            </p>
+                            <small id="time">11:30</small>
+                        </div>
+                     
+                        <div class="recivedmessage">
+                            <h3>Mohammed</h3>
+                            <p>I realized that my time goes there 
+                                So I'm trying to minimize it 
+                                As always 
+                                (And always I failed to continue)
+                            </p>
+                            <small>11:30</small>
+                        </div>
+        
+                        <div class="ownermessage">
+                            <h3>Redouane</h3>
+                            <p>Actually I didn't think about it... 
+                                That's why I have no Ideas yet
+                            </p>
+                            <small>11:30</small>
+                        </div>
+    
+                        <div class="ownermessage">
+                            <h3>Redouane</h3>
+                            <p>Totally true ✅
+                                This is one of the most beautiful philosophies ... 
+                                Cause It doesn't matter how slowly you are as long as you still continue .... 
+                                As long as you do not stop doing it ❤✅
+                            </p>
+                            <small>11:30</small>
+                        </div>
+                    
+                        <div class="recivedmessage">
+                            <h3>Mohammed</h3>
+                            <p>I realized that my time goes there 
+                                So I'm trying to minimize it 
+                                As always 
+                                (And always I failed to continue)
+                            </p>
+                            <small>11:30</small>
+                        </div>
+
+                    </div>
+                    
+                </div>
+    
+                <div class="form">
+                    <a href="">&#x1F642</a>
+                    <input type="text" placeholder="  Insert Your Message  " class="messageinput" id="message_input">
+                    <input type="submit" value="  Send  " class="sendbutton" id="send_button" >
+                </div>
+
+            </div>
+
+            <script >
+                let currentId='chan01';
+                const send_button=document.querySelector('#send_button');
+                let message_input = document.querySelector('#message_input');
+                const firstmsg = document.querySelector('#firstmsg');
+                let Mymsg = document.querySelector('#myMsg');
+
+                const time = document.querySelector('#time');
+
+                let messages1 = document.querySelectorAll('.ownermessage');
+                let messages2 = document.querySelectorAll('.recivedmessage');
+
+                send_button.addEventListener('click',()=>{
+                    var date = new Date();
+                    var timenow=date.getHours()+":"+date.getMinutes()+":"+date.getSeconds();
+                    messages1.forEach(element => {
+                    element.style.display="none"
+                    });
+                    messages2.forEach(element => {
+                    element.style.display="none"
+                    });
+
+                    Mymsg.innerHTML=message_input.value;
+                    firstmsg.style.display="block";
+
+                    time.innerHTML=timenow;
+                    // console.log(date.getHours+":"+date.getMinutes);
+                });
+
+
+                function onSlelec(id ,channel_Name){
+                const title=document.querySelector('#channelName').innerHTML=channel_Name;
+                const channelWereSelected=document.querySelector("#"+currentId);
+                channelWereSelected.classList.remove('selected');
+
+
+                currentId=id;
+                const channelSelected=document.querySelector("#"+id);
+                channelSelected.classList.add('selected');
+                }
+            </script>
+            
+        </main>
+    </body>
+</html>
+<div id="reading-position-indicator" style="width: 75.4227%;"></div>
